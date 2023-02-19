@@ -1,0 +1,135 @@
+ .body{
+   background-color:dimgrey;
+ }
+ .parent{
+    border: 10px solid green;
+    margin:10px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+   
+ }
+ 
+ .parent1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 5px;
+
+     
+ }
+ .size{
+   position: relative;
+   left: 450px;
+    
+    border: 5px solid red;
+    box-shadow: 5px 5px rgb(46, 7, 46);
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    background-color: aliceblue;
+    
+
+
+ }
+ .h2{
+   color:darkred;
+   gap: 10px;
+ }
+ .box{
+    border: 5px solid red;
+    box-shadow: 5px 5px rgb(48, 7, 48);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+ }
+.box2-0{
+        
+        border: 5px solid red;
+        box-shadow: 5px 5px rgb(44, 7, 44);
+        border-radius: 10px;  
+        text-align: center;
+        color:rgb(35, 10, 58);
+        padding: 10px;
+        background-color: aliceblue;
+
+        
+}
+.box2-1{
+    border: 5px solid red;
+    box-shadow: 5px 5px rgb(34, 4, 34);
+    border-radius: 10px;  
+    color:rgb(35, 10, 58);
+    padding: 10px;
+    font-size:large; 
+    background-color: aliceblue;
+
+   
+ }
+ .box2-2{
+    border: 5px solid red;
+    box-shadow: 5px 5px rgb(48, 9, 48);
+    border-radius: 10px;  
+    text-align: center;
+    color:rgb(35, 10, 58);
+    padding: 10px;
+    background-color: aliceblue;
+   
+
+
+ }
+label{
+    text-align: center;
+    color:rgb(35, 10, 58);
+    font-size: 5x;
+}
+.parent2{
+   border: 5px solid rgb(110, 36, 110);
+   background-color: green;
+   align-items: center;
+   width: 735px;
+   position: absolute;
+   left: 300px;
+
+}
+h1{
+  
+   text-align: center;
+}
+.flex-container{
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+.box3_1{
+   margin: 5px;
+   background-color: darkkhaki;
+   text-align: center;
+   padding: 20px;
+}
+.submit{
+   background-color: red;
+   border-radius: 50%;
+   width: 100px;
+}
+.fix{
+   display: flex;
+   border: 5px solid red;
+   box-shadow: 5px 5px rgb(48, 9, 48);
+   border-radius: 10px;  
+   text-align: center;
+   color: red;
+   background-color:yellowgreen;
+   position: fixed;
+   bottom: 10px;
+   width: 435px;
+   height: 75px;
+   left: 350px;
+   
+
+}
+.fix1{
+   padding-left: 25px;
+   padding-right: 25px;
+   
+}
